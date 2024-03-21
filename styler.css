@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+img {
+    width: 270px;
+    height: 270px;
+}
+
+main {
+    width: 800px;
+    display: flex;
+    gap: 50px;
+    overflow-x: scroll;
+    margin: 100px auto;
+}
+main::-webkit-scrollbar {
+    background-color: wheat;
+    border-radius: 5px;
+}
+main::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 5px;
+}
